@@ -9,10 +9,10 @@ body{
     align-items: center;
 }
 #entry{
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 1000px;
     text-align: center;
-    padding: 10px 10px;
+    padding: 7px 7px;
     border: none;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
@@ -21,7 +21,7 @@ body{
     background-clip: text;
     color: transparent;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Georgia';
     text-decoration: underline;
 }
@@ -29,12 +29,12 @@ body{
     background: rgb(92, 176, 244);
     border: none;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 50px;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    padding: 10px 10px;
+    padding: 7px 7px;
     border: solid black;
 }
 #Submit:hover{
