@@ -1,0 +1,82 @@
+body{
+    background: black;   
+}
+#ent{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#entry{
+    font-size: 25px;
+    border-radius: 1000px;
+    text-align: center;
+    padding: 10px 10px;
+    border: none;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+#title{
+    background: linear-gradient(to right,rgb(27, 27, 255),rgb(27, 27, 255),rgb(27, 27, 255),violet,violet);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Georgia';
+    text-decoration: underline;
+}
+#Submit{
+    background: rgb(92, 176, 244);
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+    border: solid black;
+}
+#Submit:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
+#Submit:active{
+    transform: scale(1.05);
+    background:rgb(1, 138, 250);
+}
+#pic{
+    display: block;
+    margin: 50px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    max-width: 90%;
+    height: auto;
+}
+p{
+    color: aqua;
+    text-align: center;
+    font-size: 20px;
+}
+#Error{
+    color:tomato;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#displayCard{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 300px;
+    
+}
+#Outbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
