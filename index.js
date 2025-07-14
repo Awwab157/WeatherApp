@@ -52,6 +52,7 @@ async function Submit(){
     p_we.style.display="none";
     p_wmain.style.display="none";
     document.getElementById("pic").style.display="none";
+    error_message.style.display="none";
 
     let cityname=document.getElementById("entry").value;
     let info_arr=await fetchData(cityname);
