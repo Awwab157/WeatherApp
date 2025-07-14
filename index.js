@@ -74,8 +74,8 @@ async function Submit(){
     document.getElementById("cityName").style.display="block";
 
 
-    p_temp.textContent=`Temp: ${info_arr[0]}`;
-    p_tempfeel.textContent=`Temp Feels Like: ${info_arr[1]}`;
+    p_temp.textContent=`Temp: ${info_arr[0]}°C`;
+    p_tempfeel.textContent=`Temp Feels Like: ${info_arr[1]}°C`;
     p_wmain.textContent=`Weather: ${info_arr[2]}`;
     p_we.textContent=`Weather Condition: ${info_arr[3]}`;
     document.getElementById("cityName").textContent=`City: ${cityname}`;
