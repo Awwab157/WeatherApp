@@ -53,6 +53,8 @@ async function Submit(){
     p_wmain.style.display="none";
     document.getElementById("pic").style.display="none";
     error_message.style.display="none";
+    document.getElementById("cityName").style.display="none";
+
 
     let cityname=document.getElementById("entry").value;
     let info_arr=await fetchData(cityname);
@@ -69,12 +71,15 @@ async function Submit(){
     p_we.style.display="block";
     p_wmain.style.display="block";
     document.getElementById("pic").style.display="block";
+    document.getElementById("cityName").style.display="block";
 
 
     p_temp.textContent=`Temp: ${info_arr[0]}`;
     p_tempfeel.textContent=`Temp Feels Like: ${info_arr[1]}`;
     p_wmain.textContent=`Weather: ${info_arr[2]}`;
     p_we.textContent=`Weather Condition: ${info_arr[3]}`;
+    document.getElementById("cityName").textContent=`City: ${cityname}`;
+
 
     document.getElementById("pic").src=`https://openweathermap.org/img/wn/${info_arr[4]}@2x.png`;
 }
